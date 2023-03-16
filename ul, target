@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head<title>2023년 3월 실습</title></head>
+<head>
+<title>2023년 3월 실습</title>
+<base href="https://www.gachon.ac.kr/">
+</head>
 <body>
 <b>링크 실습</b><br>
 가천대학교<br>
 <mark>웹프로그래밍</mark>
 <hr>
 <ul>
-<li>
-<li>
-<li>
-<li>
+<li><a href="kor/index.do#this" target="_self"> 가천대학교 (현재 윈도우)
+<li><a href="sites/cs/index.do" taget="_blank"> IT 융합대학교 (새 윈도우)
+<li><a href="cs/5894/subview.do" target="_blank"> 컴퓨터공학 교수진 (새 윈도우)
+<li><a href="C:\Users\ssjjn\OneDrive\Desktop\웹프로그래밍\수업 자료\chap2.pdf" taget="_blank">2주차 강의 자료 (새 윈도우)
 </body>
 </html>
