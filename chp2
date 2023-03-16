@@ -5,11 +5,18 @@
 <style>
 body{background-color:linen; color:green;
       margin-left:40px; margin-right:40px;}
+      h3 { text-align : centerl color : darked; }
+      hr { height : 5px; border L solid gery;
+      background-color : grey }
+      span { color: blue; font-size: 20px;}
 </style>
 </head>
 <body>
 <h>Elvis presley</h3>
 <hr>
 He was an American singer and actor. In November
-1056, he made his 
-Tender</span>. He is often referred to as 
+1056, he made his film debut in <span>Love Me
+Tender</span>. He is often referred to as
+"<span>the king of Rock and Roll".
+</body>
+</html>
