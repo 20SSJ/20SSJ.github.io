@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head><title>2023년 3월 16일 실습</title><head>
+<body>
+</body>
+<iframe src="C:\Users\ssjjn\OneDrive\Desktop\웹프로그래밍\html\실습frame.html" name="left" width="300" height="600">
+</iframe>
+<iframe src="" name="right" width="600" height="600">
+</iframe>
+</html>
