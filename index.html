@@ -26,29 +26,53 @@
 </nav>
 <section>
     <article id="Philipines">
-        <h2>필리핀</h2><img src="PH.jpg" width="80" height="80">
-        <dt>수도</dt>
-        <dd>마닐라</dd>
+        <h2>필리핀</h2><img src="PH.jpg" width="80" height="40"
+        onmouseenter="zoomIn(event)" 
+        onmouseleave="zoomOut(event)">
+        <dl>
+            <dt>수도</dt>
+            <dd>마닐라</dd>
+        </dl> 
     </article>
     <article id="Taiwan">
-        <h2>대만</h2><img src="TW.jpg" width="80" height="80">
+        <h2>대만</h2><img src="TW.jpg" width="80" height="40"
+        onmouseenter="zoomIn(event)" 
+        onmouseleave="zoomOut(event)"/>
         <dl>
             <dt>수도</dt>
             <dd>타이베이</dd>
         </dl>
     </article>
     <article id="Vietnam">
-        <h2>베트남</h2><img src="VN" width="80" height="80">
+        <h2>베트남</h2><img src="VN.jpg" width="80" height="40"
+        onmouseenter="zoomIn(event)" 
+        onmouseleave="zoomOut(event)"/>
         <dt>수도</dd>
         <dd>하노이</dd>
     </articlel>
-    <article id="말레이시아">
-        <h2>말레이시아</h2><img src="MY" width="80" height="80">
-        <dt>수도</dt>
-        <dd>쿠알라룸프르</dd>
+    <article id="Malaysia">
+        <h2>말레이시아</h2><img src="MY.jpg" width="80" height="40"
+        onmouseenter="zoomIn(event)" 
+        onmouseleave="zoomOut(event)"/s>
+        <dl>
+            <dt>수도</dt>
+            <dd>쿠알라룸프르</dd>
+        </dl>
         <img src="bars-4.svg">
     </article>
 </section>
+<script>
+    function zoomIn(event){
+        event.target.style.width = "500px";
+        event.target.style.height= "280px";
+        event.target.style.transition="all 0.5s";
+    }
+    function zoomOut(event){
+        event.target.style.width="80px";
+        event.target.style.height="40px";
+        event.target.style.transition="all 0.5s";
+    }
+</script>
 <footer>
 <p>&copy;Copyright 2023 by SSJ</p>
 </footer>
