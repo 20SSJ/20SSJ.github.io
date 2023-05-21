@@ -4,6 +4,9 @@ a  {
 a:hover {
 	text-decoration : underline;
 }
-h1 {
-	text-align: center;
+h1  {
+	text-align : center; 
+}
+body {
+	background-image: url('viet.jpg');
 }
