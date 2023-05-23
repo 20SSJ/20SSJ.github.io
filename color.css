@@ -5,8 +5,12 @@ a:hover {
 	text-decoration : underline;
 }
 h1  {
-	text-align : center; 
+	text-align : center;
+	font: italic bold 40px consolas, sans-serif; 
 }
 hr {
 	height: 10px; border: solidgrey; background:grey;
+}
+dt {
+	font-weight: bold;
 }
