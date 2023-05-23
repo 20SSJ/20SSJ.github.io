@@ -68,7 +68,7 @@
             <dd>하노이</dd><br>
             <dt>언어</dt>
             <dd>베트남어</dd><br>
-            <dt>화폐단위</dt>
+            <dt><b>화폐단위</b></dt>
             <dd>베트남 동(VND)</dd><br>
             <dt>종교</dt>
             <dd>불교, 천주교</dd>
@@ -97,19 +97,22 @@
             </details>
     </ul>
 </nav>
-<section id="asean">
-    <div id="vodka"> <article id="Taiwan">
-        <h2><a href="taiwan.html">대만</a></h2>
+<section id="asean" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+    <div id="vodka"><a href="taiwan.html"><img src="TW.jpg" width="30" height="15"></a></div>
+    <div id="Phil"><a href="philipines.html"><img src="PH.jpg" width="30" height="15"></a></div>
+    <div id="Viet"><a href="vietnam.html"><img src="VN.jpg" width="30" height="15"></a></div>
+    <div id="Malay"><a href="malaysia.html"><img src="MY.jpg" width="30" height="15"></a></div>
+            <img src="bars-4.svg">
 </section>
+<aside id ="aside">
+</aside>
 <script>
     function zoomIn(event){
-        event.target.style.width = "500px";
-        event.target.style.height= "280px";
+        event.target.style.transform="scale(1.5)";
         event.target.style.transition="all 0.5s";
     }
     function zoomOut(event){
-        event.target.style.width="80px";
-        event.target.style.height="40px";
+        event.target.style.transform="scale(1)";
         event.target.style.transition="all 0.5s";
     }
 </script>
