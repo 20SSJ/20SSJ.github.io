@@ -35,17 +35,17 @@ dt {
 #vodka{
 	position: absolute;
 	top: 60px;
-	right: 300px;
+	right: 330px;
 }
 #Malay{
 	position: absolute;
-	bottom: 230px;
+	bottom: 210px;
 	left: 160px;
 }
 #Phil{
 	position: absolute;
-	top: 150px;
-	right: 300px;
+	top: 160px;
+	right: 320px;
 }
 #Viet{
 	position: absolute;
@@ -70,4 +70,14 @@ dt {
 	width: 100%;
 	height: 62%;
 	border-radius: 6px;
+}
+.profile{
+	position: relative;
+	width: 60px;
+	height: 60px;
+}
+.profile{
+	position: absolute;
+	top: 0;
+	left: 0;
 }
