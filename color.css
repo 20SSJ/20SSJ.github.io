@@ -27,7 +27,7 @@ dt {
 #asean {
 	position: relative;
 	height: 80%;
-	width: 40%;
+	width: 50%;
 	float: left;
 	background: url('asean.jpg') no-repeat;
 	background-size: contain;
@@ -35,22 +35,22 @@ dt {
 #vodka{
 	position: absolute;
 	top: 60px;
-	right: 195px;
+	right: 300px;
 }
 #Malay{
 	position: absolute;
 	bottom: 230px;
-	left: 150px;
+	left: 160px;
 }
 #Phil{
 	position: absolute;
 	top: 150px;
-	right: 190px;
+	right: 300px;
 }
 #Viet{
 	position: absolute;
 	top: 200px;
-	left: 225px;
+	left: 240px;
 }
 #nav{
 	width: 30%;
@@ -58,7 +58,7 @@ dt {
 	float: left;
 }
 #aside{
-	width: 30%;
+	width: 20%;
 	height: 80%;
 	float: left;
 }
@@ -69,6 +69,5 @@ dt {
 #table{
 	width: 100%;
 	height: 62%;
-
 	border-radius: 6px;
 }
