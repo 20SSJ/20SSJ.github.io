@@ -53,23 +53,23 @@ dt {
 }
 #vodka{
 	position: absolute;
-	top: 60px;
-	right: 330px;
+	top: 10%;
+	right: 43%;
 }
 #Malay{
 	position: absolute;
-	bottom: 210px;
-	left: 160px;
+	bottom: 38%;
+	left: 17%;
 }
 #Phil{
 	position: absolute;
-	top: 160px;
-	right: 320px;
+	top: 30%;
+	right: 43%;
 }
 #Viet{
 	position: absolute;
-	top: 200px;
-	left: 240px;
+	top: 35%;
+	left: 30%;
 }
 .profile{
 	position: relative;
