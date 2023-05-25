@@ -3,6 +3,30 @@ html, body{
 	padding: 0;
 	height: 100%;
 }
+#header{
+	width: 100%;
+	height: 15%;
+}
+#nav{
+	width: 30%;
+	height: 75%;
+	float: left;
+}
+#section{
+	width: 50%;
+	height: 75%;
+	float: left;
+}
+#aside{
+	width: 20%;
+	height: 75%;
+	float: left;
+}
+#footer{
+	width: 100%;
+	height: 10%;
+	clear: both;
+}
 a  {
 	color: black;
 	text-decoration : none; 
@@ -20,15 +44,10 @@ hr {
 dt {
 	font-weight: bold;
 }
-#header{
-	width: 100%;
-	height: 10%;
-}
-#asean {
+.asean {
 	position: relative;
-	height: 80%;
-	width: 50%;
-	float: left;
+	height: 100vh;
+	width: 100vw;
 	background: url('asean.jpg') no-repeat;
 	background-size: contain;
 }
@@ -51,25 +70,6 @@ dt {
 	position: absolute;
 	top: 200px;
 	left: 240px;
-}
-#nav{
-	width: 30%;
-	height: 80%;
-	float: left;
-}
-#aside{
-	width: 20%;
-	height: 80%;
-	float: left;
-}
-#footer{
-	width: 100%;
-	height: 10%;
-}
-#table{
-	width: 100%;
-	height: 62%;
-	border-radius: 6px;
 }
 .profile{
 	position: relative;
