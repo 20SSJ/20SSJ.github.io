@@ -71,3 +71,10 @@ dt {
 	top: 35%;
 	left: 30%;
 }
+img{
+	display:block;
+	margin: 0px auto;
+}
+.profile{
+	text-align: center;
+}
