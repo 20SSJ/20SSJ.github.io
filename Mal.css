@@ -16,3 +16,10 @@
     left: 0px;
     z-index: -1;
 }
+table {
+    font-weight: bold;
+}
+td{
+    width: 30%;
+    height: 30%;
+}
