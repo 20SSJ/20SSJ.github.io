@@ -16,3 +16,6 @@
     left: 0px;
     z-index: -1;
 }
+table{
+    font-weight: bold;
+}
