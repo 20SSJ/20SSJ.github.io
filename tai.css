@@ -1,3 +1,6 @@
+html, body{
+    margin: 0;
+}
 .container{
     width: 100vw;
     height: 100vh;
@@ -20,6 +23,6 @@ table {
     font-weight: bold;
 }
 td{
-    width: 200px;
-    height: 200px;
+    width: 30%;
+    height: 30%;
 }
