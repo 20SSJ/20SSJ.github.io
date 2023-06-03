@@ -16,30 +16,33 @@
 </header>
 <nav id="nav">
     <div class="Na">
+        <div class="box">
         <table>
             <tr><td><img src="assets/profile.jpg" class="bor" width="50%" height="50%" alt="profile"></td></tr>
             <tr><th>안녕하세요! 저는 서상준입니다.</th></tr>
             <td>동남아시아 여행에 대해서 작성하고 있습니다.</td>
         </table>
+        </div>
     </div>
 </nav>
 <section id="section">
     <div class="asean" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
-    <div id="vodka"><a href="taiwan.html" target="_blank"><img src="assets/TW.jpg" width="30" height="15"></a></div>
-    <div id="Phil"><a href="philipines.html" target="_blank"><img src="assets/PH.jpg" width="30" height="15"></a></div>
-    <div id="Viet"><a href="vietnam.html" target="_blank"><img src="assets/VN.jpg" width="30" height="15"></a></div>
-    <div id="Malay"><a href="malaysia.html" target="_blank"><img src="assets/MY.jpg" width="30" height="15"></a></div>
+    <div id="vodka"><a href="taiwan.html" target="_blank"><input type="image" src="assets/TW.jpg" width="30" height="15"></a></div>
+    <div id="Phil"><a href="philipines.html" target="_blank"><input type="image" src="assets/PH.jpg" width="30" height="15"></a></div>
+    <div id="Viet"><a href="vietnam.html" target="_blank"><input type="image" src="assets/VN.jpg" width="30" height="15"></a></div>
+    <div id="Malay"><a href="malaysia.html" target="_blank"><input type="image" src="assets/MY.jpg" width="30" height="15"></a></div>
     </div>
 </section>
 <aside id ="aside">
     <h2>나라</h2>
+    <div class="box2">
     <ul>
         <li><a href="philipines.html" target="_blank">필리핀</a></li>
         <details>
             <summary><a href="https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=40" target="_blank">세부정보</a></summary>
             <dl>
                 <dt>국기</dt>
-                <dd><img src="assets/PH.jpg" width="80" height="40" alt="필리핀 국기"
+                <dd><img src="assets/PH.jpg" width="80" height="40" alt="필리핀 국기" class="flag"
                     onmouseenter="zoomIn(event)" 
                     onmouseleave="zoomOut(event)"></dd>
                 <dt>수도</dt>
@@ -57,7 +60,7 @@
             <summary><a href="https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=2" target="_blank">세부정보</a></summary>
             <dl>
                 <dt>국기</dt>
-                <dd><img src="assets/TW.jpg" width="80" height="40" alt="대만 국기"
+                <dd><img src="assets/TW.jpg" width="80" height="40" alt="대만 국기" class="flag"
                     onmouseenter="zoomIn(event)" 
                     onmouseleave="zoomOut(event)"/></dd>
                 <dt>수도</dt>
@@ -73,9 +76,8 @@
         <li><a href="vietnam.html" target="_blank">베트남</a></li>
         <details>
             <summary><a href="https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=19" target="_blank">세부정보</a></summary>
-            <p>
             <dt>국기</dt>
-            <dd><img src="assets/VN.jpg" width="80" height="40" alt="베트남 국기"
+            <dd><img src="assets/VN.jpg" width="80" height="40" alt="베트남 국기" class="flag"
                 onmouseenter="zoomIn(event)" 
                 onmouseleave="zoomOut(event)"/></dd>
             <dt>수도</dt>
@@ -86,16 +88,14 @@
             <dd>베트남 동(VND)</dd><br>
             <dt>종교</dt>
             <dd>불교, 천주교</dd>
-            </p>
         </details>
         <li><a href="malaysia.html" target="_blank">말레이시아</a></li>
         <details>
             <summary><a href="https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=14" target="_blank">세부정보</a></summary>
-            <p>
             <dl>
                 <dt>국기</dt>
                 <dd>
-                    <img src="assets/MY.jpg" width="80" height="40" alt="말레이시아 국기"
+                    <img src="assets/MY.jpg" width="80" height="40" alt="말레이시아 국기" class="flag"
                 onmouseenter="zoomIn(event)" 
                 onmouseleave="zoomOut(event)"></dd>
                 <dt>수도</dt>
@@ -107,9 +107,9 @@
                 <dt>종교</dt>
                 <dd>이슬람교, 불교, 힌두교</dd>
             </dl>
-            </p>
             </details>
     </ul>
+    </div>
 </aside>
 <script src="size.js"></script>
 <footer id="footer">

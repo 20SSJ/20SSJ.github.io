@@ -12,6 +12,18 @@ html, body{
 	width: 30%;
 	height: 75%;
 	float: left;
+	position: relative;
+}
+.box{
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	margin: -150px 0 0 -150px;
+	width: 80%;
+	height: 50%;
+	border-color:black;
+	border-radius: 5%;
+	background-color: white;
 }
 #section{
 	width: 50%;
@@ -21,7 +33,10 @@ html, body{
 #aside{
 	width: 20%;
 	height: 75%;
+	border-radius: 5%;
+	background-color: white;
 	float: left;
+	overflow: hidden;
 }
 #footer{
 	width: 100%;
@@ -47,34 +62,37 @@ dt {
 }
 .asean {
 	position: relative;
-	height: 100%;
-	width: 100%;
+	height: 600px;
+	width: 600px;
 	background: url('assets/asean.jpg') no-repeat;
 	background-size: contain;
 }
 #vodka{
 	position: absolute;
-	top: 10%;
-	right: 43%;
+	top: 60px;
+	right: 195px;
 }
 #Malay{
 	position: absolute;
-	bottom: 40%;
-	left: 20%;
+	bottom: 270px;
+	left: 140px;
 }
 #Phil{
 	position: absolute;
-	top: 30%;
-	right: 43%;
+	top: 160px;
+	right: 190px;
 }
 #Viet{
 	position: absolute;
-	top: 35%;
-	left: 30%;
+	top: 190px;
+	left: 210px;
 }
 table{
 	text-align: center;
 }
 .bor{
 	border-radius: 5%;
+}
+.flag:hover{
+	box-shadow: 3px 3px 3px gray;
 }
