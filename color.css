@@ -20,8 +20,7 @@ html, body{
 	left: 40%;
 	margin: -150px 0 0 -150px;
 	width: 80%;
-	height: 50%;
-	border-color:black;
+	height: 55%;
 	border-radius: 5%;
 	background-color: white;
 }
@@ -33,9 +32,13 @@ html, body{
 #aside{
 	width: 20%;
 	height: 75%;
-	border-radius: 5%;
-	background-color: white;
 	float: left;
+}
+.box2{
+	width: 90%;
+	height: 85%;
+	background-color: white;
+	border-radius: 5%;
 	overflow: hidden;
 }
 #footer{
@@ -54,7 +57,7 @@ h1  {
 	text-align : center;
 	font: italic bold 40px consolas, sans-serif; 
 }
-hr {
+#border {
 	height: 10px; border: solidgrey; background:grey;
 }
 dt {
