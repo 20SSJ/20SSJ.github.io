@@ -6,6 +6,7 @@ html, body{
     height: 100vh;
     text-align: center;
     position: relative;
+    overflow: hidden;
 }
 .container::after{
     content: "";
@@ -25,4 +26,10 @@ table {
 td{
     width: 30%;
     height: 30%;
+}
+img{
+    border-radius: 5%;
+}
+img:hover{
+	box-shadow: 5px 5px 5px 5px gray;
 }

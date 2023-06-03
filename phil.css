@@ -6,6 +6,7 @@ html, body{
     height: 100vh;
     text-align: center;
     position: relative;
+    overflow: hidden;
 }
 .container::after{
     content: "";
@@ -21,4 +22,17 @@ html, body{
 }
 table{
     font-weight: bold;
+}
+td{
+    width: 30%;
+    height: 30%;
+}
+h1{
+    font-family: Georgia;
+}
+img{
+    border-radius: 5%;
+}
+img:hover{
+	box-shadow: 5px 5px 5px 5px gray;
 }
