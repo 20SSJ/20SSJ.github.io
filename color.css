@@ -15,14 +15,22 @@ html, body{
 	position: relative;
 }
 .box{
-	position: absolute;
-	top: 200px;
-	left: 180px;
-	margin: -150px 0 0 -150px;
+	margin: 5px 30px;
 	width: 80%;
 	height: 310px;
 	border-radius: 5%;
 	background-color: white;
+}
+.tip{
+	margin: 10px 30px;
+	width: 80%;
+	height: 190px;
+	border-radius: 5%;
+	background-color: white;
+	overflow: hidden;
+}
+h4{
+	text-align: center;
 }
 #section{
 	width: 50%;
