@@ -65,10 +65,13 @@ dt {
 }
 .asean {
 	position: relative;
-	height: 600px;
+	height: 530px;
 	width: 600px;
 	background: url('assets/asean.jpg') no-repeat;
 	background-size: contain;
+}
+.asean:hover{
+	box-shadow: 4px 4px 4px gray;
 }
 #vodka{
 	position: absolute;
@@ -77,7 +80,7 @@ dt {
 }
 #Malay{
 	position: absolute;
-	bottom: 270px;
+	bottom: 200px;
 	left: 140px;
 }
 #Phil{
