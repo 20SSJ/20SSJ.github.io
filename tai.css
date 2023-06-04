@@ -6,6 +6,7 @@ html, body{
     height: 100vh;
     text-align: center;
     position: relative;
+    overflow: hidden;
 }
 .container::after{
     content: "";
@@ -31,4 +32,14 @@ img{
 }
 img:hover{
 	box-shadow: 5px 5px 5px 5px gray;
+}
+.left{
+    width: 50%;
+    height: 90%;
+    float: left;
+}
+.right{
+    width: 50%;
+    height: 90%;
+    float: left;
 }
