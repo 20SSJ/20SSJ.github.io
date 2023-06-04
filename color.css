@@ -110,6 +110,9 @@ table{
 .flag:hover{
 	box-shadow: 3px 3px 3px gray;
 }
-details summary::marker{
+summary::marker{
 	font-size: 0;
+}
+summary:hover{
+	background-color: whitesmoke;
 }
