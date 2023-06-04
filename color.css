@@ -16,11 +16,11 @@ html, body{
 }
 .box{
 	position: absolute;
-	top: 30%;
-	left: 40%;
+	top: 200px;
+	left: 180px;
 	margin: -150px 0 0 -150px;
 	width: 80%;
-	height: 55%;
+	height: 310px;
 	border-radius: 5%;
 	background-color: white;
 }
@@ -98,4 +98,7 @@ table{
 }
 .flag:hover{
 	box-shadow: 3px 3px 3px gray;
+}
+details summary::marker{
+	font-size: 0;
 }
