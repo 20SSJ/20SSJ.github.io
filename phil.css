@@ -1,5 +1,6 @@
 html, body{
     margin: 0;
+    font-family: 'Pretendard', sans-serif;
 }
 .container{
     width: 100vw;
@@ -26,9 +27,6 @@ table{
 td{
     width: 30%;
     height: 30%;
-}
-h1{
-    font-family: Georgia;
 }
 img{
     border-radius: 5%;
@@ -66,7 +64,6 @@ h1, h4{
 	background-size: contain;
 }
 #Map:hover{
-    transform: scale(1.05);
 	box-shadow: 4px 4px 4px gray;
 }
 #white{
