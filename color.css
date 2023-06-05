@@ -3,6 +3,7 @@ html, body{
 	padding: 0;
 	height: 100%;
 	background-color: whitesmoke;
+	overflow: auto;
 }
 #header{
 	width: 100%;
@@ -115,4 +116,7 @@ summary::marker{
 }
 summary:hover{
 	background-color: whitesmoke;
+}
+summary{
+	cursor: help;
 }
