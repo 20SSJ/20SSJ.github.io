@@ -35,6 +35,7 @@ h4{
 	text-align: center;
 }
 #section{
+	display: flex;
 	width: 50%;
 	height: 75%;
 	float: left;
